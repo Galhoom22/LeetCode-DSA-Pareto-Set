@@ -39,7 +39,8 @@ Each folder includes:
 - `brute_force.cpp`
 - `optimized.cpp`
 - `optimal.cpp`
-- `flowchart.png` & `.drawio`
+- `flowchart.png`
+- `flowchart.drawio`
 - Documentation and analysis inside code comments (pseudocode, logic, and complexity).
 
 Example:
