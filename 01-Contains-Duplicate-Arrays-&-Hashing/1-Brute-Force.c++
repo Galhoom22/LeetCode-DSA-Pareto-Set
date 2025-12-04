@@ -20,7 +20,7 @@
 
 	Edge Cases Handled: if nums is empty it will return false safely
 
-	Example: { 1,2,3,1 }
+	Example: { 1,2,3,1 } -> true
 
 */
 
