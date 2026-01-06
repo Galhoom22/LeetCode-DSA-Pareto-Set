@@ -36,9 +36,9 @@ Problem-Number-Problem-Name-Category
 
 Each folder includes:
 
-- `brute_force.cpp`
-- `optimized.cpp`
-- `optimal.cpp`
+- `1-Brute-Force.c++`
+- `2-Optimized.c++`
+- `3-Optimal.c++`
 - `flowchart.png`
 - `flowchart.drawio`
 - Documentation and analysis inside code comments (pseudocode, logic, and complexity).
@@ -46,10 +46,10 @@ Each folder includes:
 Example:
 
 ```
-01-Contains-Duplicate-Arrays/
-    ├── brute_force.cpp
-    ├── optimized.cpp
-    ├── optimal.cpp
+01-Contains-Duplicate-Arrays-&-Hashing/
+    ├── 1-Brute-Force.c++
+    ├── 2-Optimized.c++
+    ├── 3-Optimal.c++
     └── flowchart.png
     └── flowchart.drawio
 ```
