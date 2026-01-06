@@ -3,8 +3,10 @@
 
 	* This is the brute force approach
 
+	this approach will give you Time Limit Exceeded on leetcode due to O(n^2) time complexity
+
 	Steps
-	For the list [1,2,3,1]
+	For the list [1,2,1]
 	1. pick the first element
 	2. compare it with all other elements
 	3. if any element matches return true
@@ -20,7 +22,7 @@
 
 	Edge Cases Handled: if nums is empty it will return false safely
 
-	Example: { 1,2,3,1 } -> true
+	Example: { 1,2,1 } -> true
 
 */
 
@@ -28,27 +30,24 @@
 #include <vector>
 using namespace std;
 
-class solution {
+class Solution {
 public:
 	bool containsDuplicate(vector<int>& nums) {
-		for (int i = 0; i < nums.size(); i++) {
-			// Inner loop compares it with every number AFTER it
-			for (int j = i + 1; j < nums.size(); j++) {
-				// If we find a match we found a duplicate
+		for (size_t i = 0; i < nums.size(); i++) { // size_t is used to avoid signed/unsigned comparison warnings
+			for (size_t j = i + 1; j < nums.size(); j++) {
 				if (nums[i] == nums[j]) {
 					return true;
 				}
 			}
 		}
-		// If we finish checking EVERY pair and find no matches
 		return false;
 	}
 };
 
 int main()
 {
-	vector<int> nums = {};
-	solution object;
-	bool result = object.containsDuplicate(nums);
+	vector<int> nums = {1,2,1};
+	Solution solution;
+	bool result = solution.containsDuplicate(nums);
 	cout << (result ? "true" : "false") << endl;
 }
