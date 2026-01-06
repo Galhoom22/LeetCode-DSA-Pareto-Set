@@ -156,6 +156,8 @@ Example:
 
 This collection is based on **The Pareto Problem Set** PDF created by **Aman** — a curated list of the most impactful LeetCode problems for mastering DSA fundamentals.
 
+Aman youtube channel: https://www.youtube.com/@AmanManazir
+
 ---
 
 ⭐ **If you find this repository helpful, consider giving it a star!**
