@@ -3,7 +3,7 @@
 
 	* This is the brute force approach
 
-	this approach will give you Time Limit Exceeded on leetcode due to O(n^2) time complexity
+	⚠️ Note: this approach will give you Time Limit Exceeded on leetcode due to O(n^2) time complexity
 
 	Steps
 	For the list [1,2,1]
