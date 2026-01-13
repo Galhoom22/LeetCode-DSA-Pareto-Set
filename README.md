@@ -31,7 +31,7 @@ Each problem is solved through a **4-step process**, designed to mirror a **real
 Each problem has its **own folder**, named using the following convention:
 
 ```
-Problem-Number-Problem-Name-Category
+Problem-Number-Problem-Name-Category-difficulty
 ```
 
 Each folder includes:
@@ -46,7 +46,7 @@ Each folder includes:
 Example:
 
 ```
-01-Contains-Duplicate-Arrays-&-Hashing/
+01-Contains-Duplicate-Arrays-&-Hashing-Easy/
     ├── 1-Brute-Force.c++
     ├── 2-Optimized.c++
     ├── 3-Optimal.c++
