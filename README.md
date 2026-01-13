@@ -46,7 +46,7 @@ Each folder includes:
 Example:
 
 ```
-01-Contains-Duplicate-Arrays-&-Hashing-Easy/
+01-Contains-Duplicate-Arrays-Hashing-Easy/
     ├── 1-Brute-Force.c++
     ├── 2-Optimized.c++
     ├── 3-Optimal.c++
